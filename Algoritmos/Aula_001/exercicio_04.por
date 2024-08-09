@@ -1,6 +1,5 @@
-programa
-{
-	
+programa{
+	// EXERCÍCIO 4: Faça um algoritmo que leia um número e imprima a tabuada de O a 10.
 	funcao inicio()
 	{
 		real resultado

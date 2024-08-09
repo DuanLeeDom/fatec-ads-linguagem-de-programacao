@@ -1,6 +1,5 @@
-programa
-{
-	
+programa{
+	// EXERCÍCIO 2: Faça um algoritmos que leia seu nome, seu ano de nascimento e apresenta sua idade.
 	funcao inicio()
 	{
 		cadeia nome
@@ -9,7 +8,6 @@ programa
 		
 		escreva("Digite seu nome: ")
 		leia(nome)
-
 		escreva("Digite sua data de nascimento: ")
 		leia(ano_nascimento)
 
@@ -19,7 +17,6 @@ programa
 		escreva("----BEM-VINDO-----")
 		escreva("Seu nome: ", nome)
 		escreva("Sua idade: ", idade)
-		
 	}
 }
 /* $$$ Portugol Studio $$$ 

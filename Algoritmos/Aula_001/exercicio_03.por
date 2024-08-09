@@ -1,6 +1,5 @@
-programa
-{
-	
+programa{
+	// EXERCÍCIO 3: Faça um algoritmo que leia 4 notas e imprima a média simples.
 	funcao inicio()
 	{
 		real nota, media, somaNotas = 0.0
