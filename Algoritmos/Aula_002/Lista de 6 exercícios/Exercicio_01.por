@@ -1,6 +1,5 @@
-programa
-{
-	
+programa  {
+	// 1 - Fazer um algoritmo que leia 2 n�mero e inverta os valores deles nas suas respectivas vari�veis.
 	funcao inicio()
 	{
 		real n1, n2, aux
@@ -16,14 +15,3 @@ programa
 		escreva("\nNúmero 2 agora é: ", n2)
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 68; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */

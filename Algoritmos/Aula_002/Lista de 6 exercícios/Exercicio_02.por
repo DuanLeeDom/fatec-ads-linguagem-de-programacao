@@ -1,16 +1,11 @@
-programa
-{
-	
-	funcao inicio()
-	{
-		
+programa{
+	// 2- Fazer um algoritmo pra calcular o IMC. F�rmula: peso/(altura x altura)
+	funcao inicio(){
 		real altura, peso, imc
 
 		escreva("\n---[ CALCULO DE IMC ]---")
-			
 		escreva("\nDigite sua altura: ")
 		leia(altura)
-		
 		escreva("Digite seu peso: ")
 		leia(peso)
 
@@ -37,14 +32,3 @@ programa
 		}
 	}
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 175; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */

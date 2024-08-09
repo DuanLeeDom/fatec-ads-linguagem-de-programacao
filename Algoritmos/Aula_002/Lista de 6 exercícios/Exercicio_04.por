@@ -1,29 +1,14 @@
-programa
-{
-	
-	funcao inicio()
-	{
-
-		real comprimento, largura, altura
+programa {
+  // 4 - Fazer um algoritmo que leia um número e apresente ele ao cubo.
+  funcao inicio() {
+   	real n1, result
 			
-		escreva("Digite o comprimento: ")
-		leia(comprimento)
+		escreva("\nVamos saber como é ao cubo")
+    escreva("\nDigite um número: ")
+    leia(n1)
 
-		escreva("Digite a largura: ")
-		leia(largura)
+    result = n1 * n1 * n1
 
-		escreva("Digite a altura: ")
-		leia(altura)
-	}
+    escreva("\nO número ", n1, " ao cubo é: ", result)
+  }
 }
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seÃ§Ã£o do arquivo guarda informaÃ§Ãµes do Portugol Studio.
- * VocÃª pode apagÃ¡-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 134; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
