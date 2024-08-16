@@ -1,28 +1,19 @@
-programa {
-  funcao inicio() {
-    inteiro idade, dataNac, anoAtual
-
-    escreva("\n---[ VALIDA«√O PARA A RETIRADA DA HABILITA«√O ]---")
-    escreva("\nDigite seu ano de nascimento: ")
-    leia(dataNac)
-    escreva("Digite ano atual: ")
-    leia(anoAtual)
-    
-    limpa()
-    escreva("\n---[ RESULTADO ]---")
-    escreva("\nVocÍ ")
-
-    idade = anoAtual - dataNac 
-
-    se (idade < 18){
-      escreva("n„o est· apto ")
-    }
-    senao{
-      se (idade > 18){
-        escreva("est· apto ")
-      }
-    }
-
-    escreva("para tirar carta de motorista.")
-  }
+programa
+{
+	
+	funcao inicio()
+	{
+		escreva("Ol√° Mundo")
+	}
 }
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta se√ß√£o do arquivo guarda informa√ß√µes do Portugol Studio.
+ * Voc√™ pode apag√°-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 12; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */

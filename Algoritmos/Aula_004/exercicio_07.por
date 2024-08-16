@@ -1,23 +1,37 @@
 programa {
   funcao inicio() {
     inteiro n1
-    cadeia result
+    cadeia resultado
 
-    escreva("\n---[ SABER SE … PAR OU ÕMPAR ]---")
-    escreva("\nDigite o n˙mero: ")
+	resultado = ""
+
+    escreva("\n---[ SABER SE √â PAR OU √çMPAR ]---")
+    escreva("\nDigite o n√∫mero: ")
     leia(n1)
 
-    // VerificaÁ„o de mÛdulo
+    // Verifica√ß√£o de m√≥dulo
     se (n1 % 2 == 0) {
-      result = "PAR"
+      resultado = "PAR"
     }
     senao se (n1 % 2 == 1) {
-      result = "ÕMPAR"
+      resultado = "√çMPAR"
     }
 
-    // ExibiÁ„o
+    // Exibi√ß√£o
     escreva("\n---[ RESULTADO ]---")
-    escreva("\nSeu n˙mero: ", n1)
-    escreva("\nIdentificado: ", result)
+    escreva("\nSeu n√∫mero: ", n1)
+    escreva("\nIdentificado: ", resultado)
   }
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta se√ß√£o do arquivo guarda informa√ß√µes do Portugol Studio.
+ * Voc√™ pode apag√°-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 236; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
