@@ -55,7 +55,7 @@ programa {
     se (analistaSistema < 9){
       escreva("\nanalistaSistema: Abaixo do normal")
     }
-    senao se (engenheiroCivil == 9){
+    senao se (analistaSistema == 9){
       escreva("\nanalistaSistema: Atingiu o ideal")
     }
     senao {
