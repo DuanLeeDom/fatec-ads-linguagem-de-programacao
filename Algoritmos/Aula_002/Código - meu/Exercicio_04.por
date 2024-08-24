@@ -3,9 +3,9 @@ programa {
   funcao inicio() {
    	real n1, result
 			
-	escreva("\nVamos saber como é ao cubo")
-	escreva("\nDigite um número: ")
-	leia(n1)
+		escreva("\nVamos saber como é ao cubo")
+    escreva("\nDigite um número: ")
+    leia(n1)
 
     result = n1 * n1 * n1
 
