@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		cadeia valor1,valor2,aux
+			
+		escreva("Digite uma letra no valor1: ")
+		leia(valor1)
+		escreva("Digite uma letra no valor2: ")
+		leia(valor2)
+
+		aux = valor1
+		valor1 = valor2
+		valor2 = aux
+
+		escreva("\nResultado: ")
+		escreva("\nO valor1 ficou: ", valor1)
+		escreva("\nO valor2 ficou: ", valor2)
+		
+	}
+}
