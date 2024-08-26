@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1,n2,soma
+		cadeia result
+
+		escreva("Informe o primeiro número: ")
+		leia(n1)
+		escreva("Informe o segundo número: ")
+		leia(n2)
+
+		soma = n1+n2
+
+		se (soma%2 == 0){
+			result = "Par"
+		}
+		senao {
+			result = "Ímpar"
+		}
+
+
+		escreva("\nResultado: ")
+		escreva("\nNúmero: ", soma)
+		escreva("\nEle é ", result)
+	}
+}

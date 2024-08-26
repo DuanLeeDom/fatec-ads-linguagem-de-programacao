@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro n1
+		cadeia result
+
+		escreva("Informe um número: ")
+		leia(n1)
+
+		se (n1 > 0){
+			result = "Positivo"
+		}
+		senao se (n1 < 0){
+			result = "Negativo"
+		}
+		senao
+			result = "Neutro."
+
+		escreva("\nResultado: ")
+		escreva("\nO número: ", n1)
+		escreva("\nEle é ", result)
+	}
+}

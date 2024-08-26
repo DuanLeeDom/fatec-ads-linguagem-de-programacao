@@ -1,0 +1,44 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real n1,n2,n3,n4,media,freq
+		cadeia resultado
+
+		escreva("Informe 1º nota: ")
+		leia(n1)
+		escreva("Informe 2º nota: ")
+		leia(n2)
+		escreva("Informe 3º nota: ")
+		leia(n3)
+		escreva("Informe 4º nota: ")
+		leia(n4)		
+
+		escreva("Qual é sua frequência: ")
+		leia(freq)
+
+		media = ((n1+n2+n3+n4)/4)
+
+		resultado = ""
+
+		se (freq >= 75){
+			se (media > 7){
+				resultado = "Aprovado"
+			}
+			senao se (media < 7 e media >= 5){
+				resultado = "Exame"
+			}
+			senao se (media < 5){
+				resultado = "Retido"
+			}
+		}
+		senao{
+			resultado = "Retido" 
+		}
+
+		escreva("\nResultado: ")
+		escreva("\nMédia: ", media)
+		escreva("\nSituação: ", resultado)
+	}
+}
