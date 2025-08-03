@@ -44,7 +44,7 @@ Para executar os projetos contidos neste repositório, recomenda-se ter instalad
 
 ## 📂 Conteúdo Disponível
 
-> Aqui você pode listar os principais tópicos abordados. Exemplo:
+> Aqui você pode listar os principais tópicos abordados.
 
 * Introdução à lógica de programação
 * Tipos de dados e variáveis
