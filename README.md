@@ -1,4 +1,4 @@
-# 📘 Linguagem de Programação — Fatec Bragança Paulista
+# 📘 Linguagem de Programação I — Fatec Bragança Paulista
 
 Este repositório contém materiais desenvolvidos para a disciplina de **Linguagem de Programação** do curso de **Análise e Desenvolvimento de Sistemas** na [Fatec Bragança Paulista](https://fatecbraganca.cps.sp.gov.br/), vinculada ao Centro Paula Souza. O objetivo é documentar atividades acadêmicas, facilitar revisões futuras e compartilhar práticas de estudo com outros estudantes.
 
