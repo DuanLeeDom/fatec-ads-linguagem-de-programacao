@@ -59,7 +59,6 @@ Para executar os projetos contidos neste repositório, recomenda-se ter instalad
 ## 💻 Tecnologias Utilizadas
 
 * **Portugol Studio** — Ambiente de desenvolvimento voltado para o ensino de lógica de programação
-* **Markdown** — Para documentação e organização dos materiais
 
 ---
 
